@@ -1,0 +1,31 @@
+dcat:Dataset,severity,predicate,object,cardinality
+,mandatory,dct:description,rdfs:Literal or similar,[1..*]
+,,dct:title,rdfs:Literal or similar,[1..*]
+,,,,
+,,predicate,object,cardinality
+,recommended,dcat:contactPoint,vcard:Kind ,[0..n]
+,,dcat:keyword,rdfs:Literal or similar,[0..n]
+,,dcat:theme,skos:Concept ,[0..n]
+,,,,
+,,predicate,object,cardinality
+,optional,adms:identifier,adms:Identifier ,[0..n]
+,,adms:versionNotes,,[0..n]
+,,dcat:landingpage,foaf:Document,[0..n]
+,,dcat:qualifiedRelation,dcat:Relationship,[0..n]
+,,dcat:spatialResolutionInMeters,,[0..n]
+,,dcat:temporalResolution,,[0..n]
+,,dct:accessRights,dct:RightsStatement,[0..1]
+,,dct:accrualPeriodicity,dct:Frequency,[0..1]
+,,dct:conformsTo,dct:Standard,[0..n]
+,,dct:identifier,,[0..n]
+,,dct:isReferencedBy,rdfs:Resource,[0..n]
+,,dct:issued,,[0..1]
+,,dct:language,dct:LinguisticSystem,[0..n]
+,,dct:modified,,[0..1]
+,,dct:provenance,dct:ProvenanceStatement,[0..n]
+,,dct:relation,rdfs:Resource,[0..n]
+,,dct:type,skos:Concept,[0..1]
+,,foaf:page,foaf:Document,[0..n]
+,,owl:versioninfo,,[0..1]
+,,prov:qualifiedAttribution,,[0..n]
+,,pro:wasGeneratedBy,prov:Activity,[0..n]
